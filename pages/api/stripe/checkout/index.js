@@ -1,6 +1,6 @@
 const stripe = require('stripe')(process.env.STRIPE_API_SECRET);
 
-exports.createPaymentIntent = async (req, res) => {
+export async function createPaymentIntent(req, res) {
   try {
     const { amount, currency = 'usd', accountId } = req.body;
 
@@ -17,4 +17,4 @@ exports.createPaymentIntent = async (req, res) => {
   } catch (error) {
     res.status(500).send({ error: error.message });
   }
-};
+}
