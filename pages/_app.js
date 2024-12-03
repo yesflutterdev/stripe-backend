@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Effendex</title>
+        <title>Efandex</title>
         <link rel="icon" href="/favicon.ico" />
         <script src="https://js.stripe.com/v3/"></script>
       </Head>

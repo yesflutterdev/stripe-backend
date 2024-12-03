@@ -7,7 +7,7 @@ export default function Header() {
         <div className={styles.headerLink}></div>
       </Link>
       <div>
-        <span className={styles.brandName}>Effendex</span>{" "}
+        <span className={styles.brandName}>Efandex</span>{" "}
       </div>
     </div>
   )
